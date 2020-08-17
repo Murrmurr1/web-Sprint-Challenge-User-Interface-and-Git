@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+
+.navBar img{
+    float: left;
+    padding: 2.5% 0 5% 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    align-content: baseline;
+}
+header img{
+    margin-bottom: 2.5%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +164,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+#introS {
+    padding-left: 2%;
+}
+
+#divider {
+    border-bottom: 1px dashed black;
+    margin: 2.5% 0;
+}
+
+.aboutBoxes {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.aboutBoxes > div{
+    width: 45%;
+    margin: 0 2.5% 2.5% 2.5%;
+    padding: 2.5% 0;
+    border-bottom: 1px dashed black;
+}
+.aboutBoxes img {
+    width:100%;
+    padding-bottom: 2.5%
+
+}
+
+.Button {
+    border: 2px solid black;
+    width: 125px;
+    padding-top: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.closer{
+    margin: 0 2.5% 2.5% 2.5%;
 }
